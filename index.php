@@ -1,9 +1,13 @@
 <?php
+  // /** Enable strict type mode for type safety */
+  // declare(strict_types = 1);
+
   // /** Import php files traditionally */
   // include 'includes/person.class.php'
 
   /** Import php classes with auto load */
-  include 'includes/autoLoader.inc.php'
+  include 'includes/autoLoader.inc.php';
+
 ?>
 
 <!DOCTYPE html>
@@ -55,6 +59,18 @@
     <?php 
       Person::setDrinkingAge(18);
       echo "drinkingAge: ",  Person::$drinkingAge;
+    ?>
+  </p>
+
+  <p>
+    <?php 
+      /** Type declarations in PHP 🔥 */
+      // try {
+      //   $personOne -> setFirstName(7);
+      //   echo $personOne -> getFirstName();
+      // } catch (TypeError $error) {
+      //   echo "Error: " . $error -> getMessage();
+      // }
     ?>
   </p>
 

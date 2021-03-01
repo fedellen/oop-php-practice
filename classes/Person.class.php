@@ -15,7 +15,7 @@ class Person {
   }
 
   /** Methods */
-  public function setFirstName($firstName) {
+  public function setFirstName(string $firstName) {
     $this -> firstName = $firstName;
   }
 
