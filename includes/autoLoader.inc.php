@@ -5,7 +5,7 @@
     $url = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
     // $path;
     if(strpos($url, 'includes') !== false) {
-      $path = '../classes';
+      $path = '../classes/';
     } else {
       $path = 'classes/';
     }
