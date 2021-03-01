@@ -28,7 +28,7 @@
   }
 ?>
 
-  <form action="/calculator.php">
+  <form action="/calculator.php" method="POST">
     <!-- Conditionally render the latest result  -->
     <?php if ($result) echo "Your Last Result: " . $result ?>
     <p>My very own php calculator</p>

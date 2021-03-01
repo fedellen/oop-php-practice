@@ -26,11 +26,11 @@ class Calc {
         return $result;
 
       case 'mul':
-        $result = $this -> numOne / $this -> numTwo;
+        $result = $this -> numOne * $this -> numTwo;
         return $result;
 
       case 'div':
-        $result = $this -> numOne * $this -> numTwo;
+        $result = $this -> numOne / $this -> numTwo;
         return $result;
 
       default:
